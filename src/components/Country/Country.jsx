@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import './Country.css';
 
-const Country = ({ country }) => {
+const Country = ({ country, handleVisitedCountries }) => {
     const [visited, setVisited] = useState(false);
 
     const handleVisited = () =>{
-        setVisited(true)
-        setVisited(visited ? false : true)
+        setVisited(!visited);
+        handleVisitedCountries(country);
     }
     return (
         <div className={`country-card ${visited ? 'country-visited' : 'country-not-visited'}`}>
