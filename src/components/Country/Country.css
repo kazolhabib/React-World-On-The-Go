@@ -20,3 +20,20 @@
     object-fit: cover;
     border-radius: 8px;
 }
+.country-btn{
+    font-size: 12px;
+    font-weight: 600;
+    padding: 8px 12px;
+    background: #252525;
+    border: 1px solid aquamarine;
+    border-radius: 4px;
+    margin-top: 12px;
+    cursor: pointer;
+}
+.country-btn:hover{
+    border-color: #252525;
+}
+.country-visited{
+    color: #252525;
+    background: cornflowerblue;
+}
