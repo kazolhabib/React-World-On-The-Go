@@ -6,3 +6,7 @@
     max-width: 1200px;
     margin: 0 auto;
 }
+.visited-flags-wrapper img{
+    width: 80px;
+    height: auto;
+}
